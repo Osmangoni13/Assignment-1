@@ -59,8 +59,23 @@ body {
     padding: 80px 97px;
 }
 
-.development-head {
+.section-head {
     text-align: center;
+    margin-bottom: 48px;
+
+}
+
+.section-head h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.section-head p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .development-cards-container {
@@ -117,4 +132,81 @@ body {
     padding: 48px;
     display: flex;
     gap: 48.8px;
+}
+
+.inspiraton {
+    margin-top: 88px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.inspiraton-video {
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 151px;
+}
+
+.current-card-container {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 135px;
+}
+
+.current-card {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.current-card2 {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.current-card3 {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card-heading {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.card-paragraph {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-link {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
 }
