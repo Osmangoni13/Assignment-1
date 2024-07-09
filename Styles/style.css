@@ -47,4 +47,74 @@ body {
     font-size: 20px;
     font-weight: 600;
     margin-top: 32px;
+    margin-bottom: 44px;
+}
+
+.development-container {
+    width: 1140px;
+    height: 1395px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    padding: 80px 97px;
+}
+
+.development-head {
+    text-align: center;
+}
+
+.development-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.development-card {
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.card-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.card-content button {
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.card-img {
+    margin-top: 20px;
+}
+
+.development-card2 {
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    display: flex;
+    gap: 48.8px;
 }
