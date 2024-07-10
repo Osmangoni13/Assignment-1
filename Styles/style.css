@@ -187,7 +187,6 @@ body {
     height: 299px;
     padding: 40px;
     border-radius: 16px;
-
 }
 
 .current-card {
@@ -207,6 +206,7 @@ body {
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
+    margin-top: 24px;
 }
 
 .card-paragraph {
@@ -214,6 +214,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 24px;
 }
 
 .card-link {
@@ -222,6 +223,7 @@ body {
     font-weight: 700;
     line-height: 19px;
 }
+
 
 /* I need support section */
 
@@ -265,13 +267,13 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin-top: 16px;
 }
 
 .support-container input[type="text"] {
     width: 548px;
     height: 57px;
     padding: 19px 20px 19px 20px;
-    box-sizing: border-box;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border: none;
@@ -281,13 +283,13 @@ body {
 
 .support-container button {
     width: 120px;
-    height: 58px;
-    padding: 17px 20px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
     font-weight: 600;
-    line-height: 23px;
+    font-size: 20px;
 
 
 
@@ -296,6 +298,11 @@ body {
 .support-container form {
     margin-bottom: 64px;
     margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 
 }
 
